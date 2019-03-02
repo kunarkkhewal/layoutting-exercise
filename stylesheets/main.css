@@ -1,0 +1,148 @@
+header{
+    background-color: #ff4500;
+    padding: 10px;
+    /* padding: auto; */
+}
+
+.logo, nav, .socialLink, .socialLink li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    padding-left: 50px;
+    margin-right: 20px;
+}
+
+.logo img{
+    height: 45px;
+}
+
+nav{
+    /* margin-left: 500px; */
+    margin-left: 25%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.socialLink{
+    list-style: none;
+    margin-left: 25%;
+}
+
+.socialLink li{
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.socialLink i{
+    color: white;
+}
+
+#banner{
+    /* height: 700px; */
+    /* width: 1200px; */
+    width: 70%;
+    margin: 2em auto;
+    position: relative;
+}
+
+#banner img{
+    /* margin: 3% 20%;s */
+    /* height: 500px; */
+    width: 100%;
+} 
+
+#banner span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;  
+    position: absolute;
+    bottom: 0;  
+}
+
+#tiles{
+    background-color: lightgray;
+    /* width: 100vw; */
+    padding: 5% 16.5%;
+    display: inline-block;
+}
+
+#tiles-div{
+    width: 100%;;
+    margin-left:    5%
+    /* padding: 0 0 0 5% ; */
+    /* margin: 0; */
+}
+
+#tiles-div article{
+    display: inline-block;
+    width: 10%;
+    margin-left: 3%;
+    position: relative;
+    background-color: white;
+    padding: 2% 4%;
+}
+
+article i{
+    font-size: 40px;
+    margin-left: 30%;
+    color: #ff4500;
+}
+
+article h3{
+    text-align: center;
+    font-size: 2em;
+    color: steelblue;
+}
+
+p{
+    text-align: center;
+}
+
+article button{
+    position: absolute;
+    left: 31%;
+    top: 210px;  
+    border: 0;
+    color: white;
+    background-color: steelblue;    
+}
+
+footer{
+    background-color: brown; 
+    padding: 2% 0;
+}
+
+#footer-social, nav, #info{
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+#footer-social li{
+    display: inline-block;   
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#footer-social{
+    margin-left: 5%;
+}
+
+#footer-social i{
+    color: white;
+}
+
+footer nav{
+    margin-left: 25%;
+}
+
+#info{
+    margin-left: 25%;
+}
